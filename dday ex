@@ -1,0 +1,9 @@
+"#date"+days = = id이름이 date?   days변수에따라 뒤에 숫자를 작성해야함
+정확한 계산을위해 밀리초 변환 .gettime();
+계산후 표기를 위해 일로변환 Math.rount(mmtime/(24*60*60*1000));
+                                             시 분 초 밀리초
+시 ((milliSeconds / (1000 * 60 *60 )) % 24 );
+분((milliSeconds / (1000 * 60 )) % 60 );
+초(milliSeconds / 1000 ) % 60 ;
+
+                                            
